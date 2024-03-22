@@ -1,0 +1,40 @@
+.container{
+    border: 5px solid black;
+    height: 500px;
+    width: 50%;
+    margin: auto;
+    display:grid;
+    align-items: end;
+    
+    
+}
+    
+    /* if using flexbox 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    */
+    
+  .button-container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    /* border to see the button container
+    border: 5px solid black;
+    */
+    margin-left: 50px;
+
+    
+    
+
+  }  
+    
+
+.button {
+    border: 3px solid grey;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    
+}
