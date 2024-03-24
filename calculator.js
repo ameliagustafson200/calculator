@@ -1,9 +1,16 @@
+let constOne;
+let constTwo;
+
+
+
+
+
 //add
 const buttonOne = document.getElementById("add");
 console.log(buttonOne);
 
 const addNumber = function () {
-  let x = parseInt(prompt("Enter your first number"));
+  let x = ;
   let y = parseInt(prompt("Enter your second number"));
   let sum = x + y;
   console.log(sum);
