@@ -1,17 +1,12 @@
 let constOne;
 let constTwo;
-
-
-
-
-
 //add
 const buttonOne = document.getElementById("add");
 console.log(buttonOne);
 
 const addNumber = function () {
-  let x = ;
-  let y = parseInt(prompt("Enter your second number"));
+  let x = constOne;
+  let y = constTwo;
   let sum = x + y;
   console.log(sum);
 };
@@ -20,8 +15,8 @@ buttonOne.addEventListener("click", addNumber);
 const buttonTwo = document.getElementById("subtract");
 console.log(buttonTwo);
 const subtract = function () {
-  let x = parseInt(prompt("Enter your first number"));
-  let y = parseInt(prompt("Enter your second number"));
+    let x = constOne;
+    let y = constTwo;
   let sumTwo = x - y;
   console.log(sumTwo);
 };
@@ -31,8 +26,8 @@ buttonTwo.addEventListener("click", subtract);
 const buttonThree = document.getElementById("multiply");
 console.log(buttonThree);
 const multiply = function () {
-  let x = parseInt(prompt("Enter your first number"));
-  let y = parseInt(prompt("Enter your second number"));
+    let x = constOne;
+    let y = constTwo;
   let product = x * y;
   console.log(product);
 };
@@ -42,8 +37,8 @@ buttonThree.addEventListener("click", multiply);
 const buttonFour = document.getElementById("divide");
 console.log(buttonFour);
 const divide = function () {
-  let x = parseInt(prompt("Enter your first number"));
-  let y = parseInt(prompt("Enter your second number"));
+    let x = constOne;
+    let y = constTwo;
   let quotient = x / y;
   console.log(quotient);
 };

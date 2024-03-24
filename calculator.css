@@ -45,7 +45,7 @@
   text-align: center;
   height: 40px;
 }
-.grid-container {
+.flex-container {
   display: flex;
   
   
@@ -57,3 +57,28 @@
     width: 30px;
 
 }
+ @media all and (min-width: 700px) {
+
+    .flex-container{
+        
+        display: flex;
+        flex-direction: column;
+    flex-wrap: wrap;
+    height: 20px;
+  width: 250px;
+  margin:auto;
+
+    }
+    .container{
+       width:350px;
+    }
+    .button-container {
+        width: 200px;
+        margin-left: 60px;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+      }
+ }
