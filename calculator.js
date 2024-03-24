@@ -1,8 +1,10 @@
 let constOne;
 let constTwo;
+let operator;
+//operate
+
+function operate() {}
 //add
-const buttonOne = document.getElementById("add");
-console.log(buttonOne);
 
 const addNumber = function () {
   let x = constOne;
@@ -10,36 +12,42 @@ const addNumber = function () {
   let sum = x + y;
   console.log(sum);
 };
-buttonOne.addEventListener("click", addNumber);
+const addButton = document
+  .getElementById("add")
+  .addEventListener("click", addNumber);
+
 //subtract
-const buttonTwo = document.getElementById("subtract");
-console.log(buttonTwo);
-const subtract = function () {
-    let x = constOne;
-    let y = constTwo;
+
+const subtractNumber = function () {
+  let x = constOne;
+  let y = constTwo;
   let sumTwo = x - y;
   console.log(sumTwo);
 };
-buttonTwo.addEventListener("click", subtract);
+const subtractButton = document
+  .getElementById("subtract")
+  .addEventListener("click", subtractNumber);
 
 //multiply
-const buttonThree = document.getElementById("multiply");
-console.log(buttonThree);
+
 const multiply = function () {
-    let x = constOne;
-    let y = constTwo;
+  let x = constOne;
+  let y = constTwo;
   let product = x * y;
   console.log(product);
 };
-buttonThree.addEventListener("click", multiply);
+const multiplyButton = document
+  .getElementById("multiply")
+  .addEventListener("click", multiply);
 
 //divide
-const buttonFour = document.getElementById("divide");
-console.log(buttonFour);
+
 const divide = function () {
-    let x = constOne;
-    let y = constTwo;
+  let x = constOne;
+  let y = constTwo;
   let quotient = x / y;
   console.log(quotient);
 };
-buttonFour.addEventListener("click", divide);
+const divideButton = document
+  .getElementById("divide")
+  .addEventListener("click", divide);
