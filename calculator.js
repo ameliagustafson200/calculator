@@ -4,7 +4,8 @@
 //document.getElementById("clear").addEventListener("click", clearScreen());
 
 const changeValue =function changeValueOne() {
-    console.log('hello');
+    let result = document.getElementById('result');
+    result.textContent = "1";
 }
 
 const button1 = document
