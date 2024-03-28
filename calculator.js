@@ -1,14 +1,19 @@
-let constOne;
-let constTwo;
-let operator;
-//operate
+// function to clear screen ->> function clearScreen() {
+  //document.getElementById("input").value = " ";
+//}
+//document.getElementById("clear").addEventListener("click", clearScreen());
 
-function operate() {}
+const changeValue =function changeValueOne() {
+    console.log('hello');
+}
+
+const button1 = document
+  .getElementById("button1")
+  .addEventListener("click", changeValue);
+
 //add
 
 const addNumber = function () {
-  let x = constOne;
-  let y = constTwo;
   let sum = x + y;
   console.log(sum);
 };
@@ -19,8 +24,6 @@ const addButton = document
 //subtract
 
 const subtractNumber = function () {
-  let x = constOne;
-  let y = constTwo;
   let sumTwo = x - y;
   console.log(sumTwo);
 };
@@ -31,8 +34,6 @@ const subtractButton = document
 //multiply
 
 const multiply = function () {
-  let x = constOne;
-  let y = constTwo;
   let product = x * y;
   console.log(product);
 };
@@ -43,8 +44,6 @@ const multiplyButton = document
 //divide
 
 const divide = function () {
-  let x = constOne;
-  let y = constTwo;
   let quotient = x / y;
   console.log(quotient);
 };
