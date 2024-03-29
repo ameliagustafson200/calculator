@@ -10,7 +10,7 @@
 //button 1
 const changeValue1 = function changeValueOne() {
     let result = document.getElementById('result');
-    result.textContent = 1;
+    result.textContent += 1;
     
     
 }
@@ -21,7 +21,7 @@ const button1 = document
 //button 2
 const changeValue2 = function changeValueTwo() {
     let result = document.getElementById('result');
-    result.textContent = 2;
+    result.textContent += 2;
 }
 const button2 = document
   .getElementById("button2")
@@ -29,7 +29,7 @@ const button2 = document
   //button 3
   const changeValue3 = function changeValueThree() {
     let result = document.getElementById('result');
-    result.textContent = 3;
+    result.textContent += 3;
 }
 const button3 = document
   .getElementById("button3")
@@ -37,7 +37,7 @@ const button3 = document
   // button 4
   const changeValue4 = function changeValueFour() {
     let result = document.getElementById('result');
-    result.textContent = 4;
+    result.textContent += 4;
 }
 const button4 = document
   .getElementById("button4")
@@ -45,7 +45,7 @@ const button4 = document
   //5
   const changeValue5 = function changeValueFive() {
     let result = document.getElementById('result');
-    result.textContent = 5;
+    result.textContent += 5;
 }
 const button5 = document
   .getElementById("button5")
@@ -53,7 +53,7 @@ const button5 = document
   //6
   const changeValue6 = function changeValueSix() {
     let result = document.getElementById('result');
-    result.textContent = 6;
+    result.textContent += 6;
 }
 const button6 = document
   .getElementById("button6")
@@ -61,7 +61,7 @@ const button6 = document
   //7
   const changeValue7 = function changeValueSeven() {
     let result = document.getElementById('result');
-    result.textContent = 7;
+    result.textContent += 7;
 }
 const button7 = document
   .getElementById("button7")
@@ -69,7 +69,7 @@ const button7 = document
   //button 8
   const changeValue8 = function changeValueEight() {
     let result = document.getElementById('result');
-    result.textContent = 8;
+    result.textContent += 8;
 }
 const button8 = document
   .getElementById("button8")
@@ -77,7 +77,7 @@ const button8 = document
   //9
   const changeValue9 = function changeValueNine() {
     let result = document.getElementById('result');
-    result.textContent = 9;
+    result.textContent = +9;
 }
 const button9 = document
   .getElementById("button9")
@@ -93,7 +93,7 @@ const buttonEqual = document
   //button plus
   const changeValueAdd = function changeValueAdd() {
     let result = document.getElementById('result');
-    result.textContent = "+";
+    result.textContent += "+";
 }
 const buttanAdd = document
   .getElementById("add")
@@ -101,7 +101,7 @@ const buttanAdd = document
   //button subtract
   const changeValueSubtract = function changeValueSubtract() {
     let result = document.getElementById('result');
-    result.textContent = "-";
+    result.textContent += "-";
 }
 const buttonSubtract = document
   .getElementById("subtract")
@@ -109,7 +109,7 @@ const buttonSubtract = document
   //button multiply
   const changeValueMultiply = function changeValueMultiply() {
     let result = document.getElementById('result');
-    result.textContent = "*";
+    result.textContent += "*";
 }
 const buttonMultiply = document
   .getElementById("multiply")
@@ -117,7 +117,7 @@ const buttonMultiply = document
   //button divide
   const changeValueDivide = function changeValueDivide() {
     let result = document.getElementById('result');
-    result.textContent = "/";
+    result.textContent += "/";
 }
 const buttonDivide = document
   .getElementById("divide")
